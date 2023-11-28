@@ -23,7 +23,7 @@ const CoffeeCard = ({coffee}) => {
                     <Image src={StarEmpty} className='w-6' width={100} height={100} alt='starempty'/>
                     }
 
-          { votes != 0 ? <p className="font-semibold">{rating}
+          { votes != 0 ? <p className="font-semibold text-text">{rating}
                           <span className="mx-1 font-normal text-lightgray">{`(${votes} votes)`}</span></p> :
                         <p className="a text-lightgray font-semibold">No ratings</p>
           }

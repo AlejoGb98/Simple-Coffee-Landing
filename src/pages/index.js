@@ -21,7 +21,7 @@ export default function Home({coffees}) {
   
 
   return (
-   <main className='flex flex-col justify-center items-center'>
+   <main className='flex flex-col justify-center items-center bg-dark'>
       <div className='absolute z-0 top-0'>
         <Image src={imageTop} width={2000} height={2000} className='h-full max-w-full bg-contain' alt='backgroundimage'/>
       </div>
